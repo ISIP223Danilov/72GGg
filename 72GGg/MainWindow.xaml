@@ -36,7 +36,7 @@
                  Margin="10" 
                  AcceptsReturn="True" 
                  TextWrapping="Wrap"
-                 VerticalScrollBarVisibility="Auto"/>
+                 VerticalScrollBarVisibility="Auto" TextChanged="InputTextBox_TextChanged"/>
 
         <!-- Кнопки -->
         <StackPanel Grid.Row="3" 

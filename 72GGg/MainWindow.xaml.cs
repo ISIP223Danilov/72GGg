@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+using static _72GGg.fynkcya;
 namespace _72GGg
 {
     /// <summary>
@@ -23,6 +23,28 @@ namespace _72GGg
         public MainWindow()
         {
             InitializeComponent();
+        }
+       
+        // Кнопка "Зашифровать"
+        private void EncodeButton_Click(object sender, RoutedEventArgs e)
+        {
+            string input = InputTextBox.Text;
+            string encoded = Rot13(input);
+            OutputTextBox.Text = encoded;
+        }
+
+        // Кнопка "Расшифровать" (делает то же самое, так как ROT13 самодвойственен)
+        private void DecodeButton_Click(object sender, RoutedEventArgs e)
+        {
+            string input = InputTextBox.Text;
+            string decoded = Rot13(input);
+            OutputTextBox.Text = decoded;
+        }
+    
+
+        private void InputTextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }
