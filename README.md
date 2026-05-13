@@ -74,7 +74,7 @@
 Реализованы в проекте `Rot13Tests`. 
 
 
-'using Microsoft.VisualStudio.TestTools.UnitTesting;
+`using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using static _72GGg.fynkcya;
 namespace UnitTestProject1
@@ -194,7 +194,7 @@ namespace UnitTestProject1
         }
         
     }
-}'
+}`
 
 
 
