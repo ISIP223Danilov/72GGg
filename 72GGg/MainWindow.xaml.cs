@@ -17,7 +17,7 @@ namespace _72GGg
 {
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
-    /// </summary>
+    /// </summar
     public partial class MainWindow : Window
     {
         public MainWindow()
