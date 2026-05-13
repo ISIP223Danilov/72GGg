@@ -71,14 +71,14 @@
 
 ## 4. Автоматизированные тесты (C#)
 
-Реализованы в проекте `Rot13Tests`. 
+Реализованы в проекте `Rot13Tests`.
 
 
-`using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
-using static _72GGg.fynkcya;
-namespace UnitTestProject1
-{
+        using Microsoft.VisualStudio.TestTools.UnitTesting;
+        using System;
+        using static _72GGg.fynkcya;
+        namespace UnitTestProject1
+    {
     [TestClass]
     public class UnitTest1
     {
@@ -95,7 +95,6 @@ namespace UnitTestProject1
             string text = "david is the best david in the second world war";
             string text2 = "qnivq vf gur orfg cbgngb va gur frpbaq jbeyq jne";
             Assert.AreNotEqual(text, Rot13(text2));
-
         }
         [TestMethod]
         public void TestMethod3()
