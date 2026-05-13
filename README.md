@@ -74,10 +74,10 @@
 Реализованы в проекте `Rot13Tests`.
 
 
-        using Microsoft.VisualStudio.TestTools.UnitTesting;
-        using System;
-        using static _72GGg.fynkcya;
-        namespace UnitTestProject1
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
+    using System;
+    using static _72GGg.fynkcya;
+    namespace UnitTestProject1
     {
     [TestClass]
     public class UnitTest1
@@ -192,8 +192,8 @@
             Assert.AreEqual('n', encoded[0]);
         }
         
+      }
     }
-}`
 
 
 
